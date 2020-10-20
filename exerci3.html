@@ -11,12 +11,12 @@
     <script>
         // Escreva uma função que verifique se o vetor de habilidades passado possui a 
         // habilidade "Javascript" e retorna um booleano true/false caso exista ou não.
-        var skills = ["", "ReactJS", "React Native","Javascript"];
+        var skills = ["ReactJS", "React Native","Javascript"];
         //skills[0] = '0';
         function temHabilidade(skills) {
             let variavelBooleana = false;
             // Digite aqui
-            for (let f = 0; f < skills.length - 1; f++) {
+            for (let f = 0; f < skills.length; f++) {
                 if(skills[f] == 'Javascript' ){
                     variavelBooleana = true
                     return variavelBooleana
@@ -28,5 +28,4 @@
         console.log(printTela); // true ou false
     </script>
 </body>
-
 </html>
